@@ -78,18 +78,6 @@ No installation needed — just enter a review and get your prediction instantly
 
 ---
 
-## 🛠️ Getting Started (Run Locally)
-
-Prefer to run the app on your own system?
-
-```bash
-git clone https://github.com/nitisingh02/sentiment-analysis-naive-bayes.git
-cd sentiment-analysis-naive-bayes
-pip install -r requirements.txt
-streamlit run app.py
-
----
-
 ## 📜 License
 
 This project is for academic and learning purposes only.
