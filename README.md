@@ -88,15 +88,6 @@ cd sentiment-analysis-naive-bayes
 pip install -r requirements.txt
 streamlit run app.py
 
-
----
-
-## 🌱 Future Enhancements
-
-- Add meta features (e.g., helpful votes)  
-- Improve explainability with LIME/SHAP  
-- Deploy on Streamlit Cloud or Hugging Face
-
 ---
 
 ## 📜 License
