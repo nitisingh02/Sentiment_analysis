@@ -1,3 +1,4 @@
+
 # 💬 Sentiment Analysis of Amazon Product Reviews Using Naive Bayes
 
 Classify Amazon product reviews as **Positive**, **Neutral**, or **Negative** using **Natural Language Processing** and a **Multinomial Naive Bayes** classifier.
@@ -101,3 +102,5 @@ streamlit run app.py
 ## 📜 License
 
 This project is for academic and learning purposes only.
+=======
+
