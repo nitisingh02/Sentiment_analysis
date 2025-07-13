@@ -83,7 +83,7 @@ git clone https://github.com/your-username/sentiment-analyzer-app.git
 cd sentiment-analyzer-app
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ---
 
  ##📄 License
