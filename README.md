@@ -74,15 +74,6 @@ Run `app.py` and interact with a styled Streamlit interface featuring:
 
 ---
 
-## 🚀 Run the App
-
-🎉 The app is live and ready to use!  
-👉 [Click here to try the sentiment analyzer](https://your-app-link.streamlit.app)
-
-No installation needed — just enter a review and get your prediction instantly.
-
----
-
 ## 📜 License
 
 This project is for academic and learning purposes only.
