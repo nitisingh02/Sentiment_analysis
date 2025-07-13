@@ -86,9 +86,9 @@ streamlit run app.py
 ```
 ---
 
- ##📄 License
+ ## 📄 License
 
-This project is for learning and research purposes only. 
+This project is for learning and research purposes. 
 
 =======
 
