@@ -49,7 +49,6 @@ Columns used:
 - **Negation-aware sentiment detection**  
 - Styled and animated **Streamlit GUI**  
 - Custom confidence scores & emoji feedback  
-- Handles phrases like *“not bad”, “wasn’t great”* correctly
 
 ---
 
