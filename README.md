@@ -5,6 +5,11 @@ Classify Amazon product reviews as **Positive**, **Neutral**, or **Negative** us
 
 ---
 
+## 🔗 Live App
+
+👉 [Click here to try the app](https://sentimentanalysis-nb.streamlit.app/)
+
+
 ## 🗃️ Dataset
 
 - **Source:** [Datafiniti - Consumer Reviews of Amazon Products](https://data.world/datafiniti/consumer-reviews-of-amazon-products)
