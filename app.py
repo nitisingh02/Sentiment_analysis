@@ -10,7 +10,12 @@ from sklearn.naive_bayes import MultinomialNB
 import joblib
 
 # Download stopwords
-nltk.download('stopwords')
+try:
+    stop_words = set(stopwords.words('english'))
+except LookupError:
+    nltk.download('stopwords')
+    stop_words = set(stopwords.words('english'))
+
 
 # Text preprocessing components
 ps = PorterStemmer()
@@ -114,7 +119,7 @@ if st.button("🚀 Analyze Sentiment"):
         color = {'positive': '#2ecc71', 'neutral': '#f1c40f', 'negative': '#e74c3c'}[sentiment]
         emoji = {'positive': '😊', 'neutral': '😐', 'negative': '😠'}[sentiment]
         st.markdown(f"<h3 style='color: {color};'>🎯 Predicted Sentiment: {sentiment.capitalize()} {emoji}</h3>", unsafe_allow_html=True)
-        st.markdown(f"<p style='color: #888888;'>Confidence: {confidence:.2%}</p>", unsafe_allow_html=True
+        st.markdown(f"<p style='color: #888888;'>Confidence: {confidence:.2%}</p>", unsafe_allow_html=True)
     else:
         st.warning("Please enter a review before clicking the button.")
 
