@@ -86,8 +86,5 @@ streamlit run app.py
 
 ---
 
-##  📜 License
-
-This project is for academic and learning purposes only.
 =======
 
