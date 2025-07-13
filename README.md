@@ -9,12 +9,17 @@ Classify Amazon product reviews as **Positive**, **Neutral**, or **Negative** us
 
 👉 [Click here to try the app](https://sentimentanalysis-nb.streamlit.app/)
 
+---
+## 📊 Dataset
 
-## 🗃️ Dataset
+- **Name**: Consumer Reviews of Amazon Products (Datafiniti)
+- **Format**: CSV (zipped in repo)
+- **Link**: [Kaggle Dataset](https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products)
 
-- **Source:** [Datafiniti - Consumer Reviews of Amazon Products](https://data.world/datafiniti/consumer-reviews-of-amazon-products)
-- **Fields Used:** Review Text, Rating, Verified Purchase, Helpfulness, etc.
-
+Columns used:
+- `reviews.rating`
+- `reviews.text`
+- 
 ---
 
 ## 🧽 Preprocessing
@@ -71,7 +76,14 @@ Run `app.py` and interact with a styled Streamlit interface featuring:
 ├── README.md
 └── .gitignore
 ```
+---
+ ## 🚀 Getting Started
 
+```bash
+git clone https://github.com/your-username/sentiment-analyzer-app.git
+cd sentiment-analyzer-app
+pip install -r requirements.txt
+streamlit run app.py
 ---
 
 ## 📜 License
