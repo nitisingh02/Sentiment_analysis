@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter + Colab
+.ipynb_checkpoints/
+*.ipynb_save
+*.gdoc
+*.gsheet
+
+# Virtual environments
+env/
+venv/
+*.env
+*.venv
+
+# Colab/Drive mount (if synced)
+mnt/
+tmp/
+content/drive/
+
+# Temporary data/model files (unless you version them)
+*.npy
+*.npz
+*.csv
+*.tsv
+*.zip
+*.joblib
+
+# Streamlit cache and config
+.streamlit/
+
+# System/IDE junk
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
